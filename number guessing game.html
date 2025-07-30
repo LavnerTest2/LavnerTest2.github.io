@@ -111,8 +111,19 @@
                     const resetParas = document.querySelectorAll(",resultParas p");
                     for (const resetPara of resetPara){
                         resetPara.textContent = "";
-                        
+
                     }
+
+                    resetButton.parentNode.removeChild(resetbutton)
+
+                    guessField.disabled = false;
+                    guesSubmit.disabled = false;
+                    guessField.value = "";
+                    guessfield,focus();
+
+                    lastResult.style.backroundColor = "white";
+
+                    randomNumber = Math.floor(math.random() * 100)+ 1;
                     }
             </script>
         </body>
