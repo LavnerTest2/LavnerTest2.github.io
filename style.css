@@ -5,3 +5,8 @@ html{
 p, h1 {
     color: white;
 }
+
+p, h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
