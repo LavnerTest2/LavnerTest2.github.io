@@ -1,3 +1,7 @@
 html{
     background-image: url(piygmyMarmoset.webp);
 }
+
+p, h1 {
+    color: white;
+}
