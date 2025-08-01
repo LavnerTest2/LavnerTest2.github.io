@@ -34,15 +34,15 @@
                 const upgrade = document.querySelector(".upgrade");
                 let moniesCount = 0;
                 function giveMonies(){
-                   if(monies>=500){
-                    if (monies <=510){
+                   if(moniesCount>=500){
+                    if (moniesCount <=510){
                         upgrade.textcontent = "upgrade applied, the monkies are happy";
                     } else {
                         upgrade.textcontent = "";
                     }
                     moniesCount +=4;
-                   } else if(monies>=250){
-                    if (monies <=260){
+                   } else if(moniesCount>=250){
+                    if (moniesCount <=260){
                         upgrade.textcontent = "upgrade applied, the monkies are happy";
                     } else {
                         upgrade.textcontent = "";
