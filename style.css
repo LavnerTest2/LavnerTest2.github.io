@@ -2,6 +2,10 @@ html{
     background-image: url(piygmyMarmoset.webp);
 }
 
+body {
+    text-align: center;
+}
+
 p, h1 {
     color: white;
 }
