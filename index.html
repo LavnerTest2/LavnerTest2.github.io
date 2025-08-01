@@ -19,6 +19,7 @@
                 <p>Clicking the button gives me money. Pls click it! Give in to begin your journey!</p>
                 <button type="button">Give in</button>
                 <p class="monies"></p>
+                <p class="upgrade"></p>
             </div>
            
 
@@ -30,9 +31,27 @@
             <script>
                 const button = document.querySelector("button");
                 const monies = document.querySelector(".monies");
+                const upgrade = document.querySelector(".upgrade");
                 let moniesCount = 0;
                 function giveMonies(){
-                   moniesCount++;
+                   if(monies>=500){
+                    if (monies <=510){
+                        upgrade.textcontent = "upgrade applied, the monkies are happy";
+                    } else {
+                        upgrade.textcontent = "";
+                    }
+                    monies +=4;
+                   } else if(monies>=250){
+                    if (monies <=260){
+                        upgrade.textcontent = "upgrade applied, the monkies are happy";
+                    } else {
+                        upgrade.textcontent = "";
+                    }
+                    monies+=2;
+                   } else{
+                    monies++;
+                   }
+
                    monies.textContent = `${moniesCount}`;
                 }
 
