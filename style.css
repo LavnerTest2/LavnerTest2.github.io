@@ -8,14 +8,7 @@ body {
 
 p, h1 {
     color: white;
-}
-
-p, h1{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-
-}
-
-p, h1{
-    font-size:xx-large;
-
+    background-color: rgb(26, 26, 119);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
 }
